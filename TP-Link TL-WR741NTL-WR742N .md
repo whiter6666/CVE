@@ -1,7 +1,7 @@
 we can get
 firmware in [TL-WR741N _TL-WR742N V1/V2/V3_130415标准版 - TP-LINK 服务支持](https://service.tp-link.com.cn/detail_download_1131.html)
 
-![](.\1.png)
+![](1.png)
 
 
 
@@ -9,7 +9,7 @@ Recurring vulnerabilities and POC
 
 haven’t logged in
 
-![](.\2.png)
+![](2.png)
 
 this is poc
 
@@ -38,13 +38,13 @@ Pragma: no-cache
 
 send it and cause dos
 
-![](.\3.png)
+![](3.png)
 
 
 
 browser cant load anything
 
-![](.\4.png)
+![](4.png)
 
 Vulnerability details：
 
@@ -52,13 +52,13 @@ file is in /usr/bin/http and the vulnerable function is “httpRpmPass”
 
 do not check the length of input data 
 
-![](.\5.png)
+![](5.png)
 
-![](.\6.png)
+![](6.png)
 
-![](.\7.png)
+![](7.png)
 
-![](.\8.png)
+![](8.png)
 
 we can see that the attacker can send a huge package to cause a dos.
 
