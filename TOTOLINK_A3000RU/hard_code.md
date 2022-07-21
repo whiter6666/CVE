@@ -1,6 +1,6 @@
 # hard code password for root
 
-## A3100R_Firmware
+## A3000RU_Firmware
 
 version: V4.1.2cu.5185_B20201128
 
