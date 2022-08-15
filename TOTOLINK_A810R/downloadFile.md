@@ -10,7 +10,7 @@ There is a command injection in downloadFile.cgi. Still exist in V5.9c.4050_B201
 
 ## Source:
 
-you may download it from : http://www.totolink.cn/home/menu/detail.html?menu_listtpl=download&id=2&ids=36
+you may download it from : [http://www.totolink.cn/home/menu/detail.html?menu_listtpl=download&id=2&ids=36](http://www.totolink.cn/home/menu/detail.html?menu_listtpl=download&id=7&ids=36)
 
 ## Analyse:
 ![](https://s3.bmp.ovh/imgs/2022/08/15/c9bc5cee24835fdb.png)
