@@ -16,6 +16,7 @@ you may download it from : [http://www.totolink.cn/home/menu/detail.html?menu_li
 
 
 ![](https://s3.bmp.ovh/imgs/2022/08/15/8d0b6100485e0583.png)
+
 get value from list and send it to sub_43157C
 
 ![](https://s3.bmp.ovh/imgs/2022/08/15/1c5219ca8c53bd1b.png)
