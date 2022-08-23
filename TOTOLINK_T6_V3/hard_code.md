@@ -15,6 +15,6 @@ you may download it from :
 
 ## Analyse:
 
-![](https://s3.bmp.ovh/imgs/2022/07/21/1a0a02003cedef7f.png)
+![](https://s3.bmp.ovh/imgs/2022/08/23/ba779e944d5c9eb0.png)
 
 after decrypt the passwd we got cs2012
