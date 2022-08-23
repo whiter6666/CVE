@@ -6,7 +6,7 @@ version: V4.1.5cu.709_B20210518
 
 ## Description:
 
-There is a execute arbitrary command  in cstecgi.cgi
+There is a buf overflow  in cstecgi.cgi
 
 ## Source:
 
