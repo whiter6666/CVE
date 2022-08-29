@@ -21,7 +21,7 @@ get value from list ,send to setQosMiblist
 
 ![](10.png)
 
-p eaqul list, if list contains '\n', get into if ,finally call strcpy, causee buff overflow
+p eaqul list, if list contains '\n', get into if ,finally call strcpy, cause buff overflow
 
 
 
