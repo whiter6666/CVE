@@ -17,7 +17,7 @@ you may download it from : https://www.tendacn.com/download/detail-3795.html
 
 ![](18.png)
 
-get value from deviceId ,the call sprintf, cause buff overflow
+get value from deviceId ,then call sprintf, cause buff overflow
 
 
 
