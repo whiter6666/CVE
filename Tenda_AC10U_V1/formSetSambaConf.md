@@ -1,4 +1,4 @@
-# buffer overflow
+# command injection
 
 ## Tenda_AC10U_V1
 
