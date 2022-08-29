@@ -22,6 +22,7 @@ get value from devName ,send to set_device_name
 ![](12.png)
 
 and dont send the mac ,we can get into else
+
 finally call snprint ,dont check the length ,cause buff overflow
 
 
