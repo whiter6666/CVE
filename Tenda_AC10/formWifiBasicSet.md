@@ -17,7 +17,7 @@ you may download it from : https://www.tendacn.com/download/detail-3796.html
 
 ![](16.png)
 
-get value from security ,and if all parameters are not seted, get into else
+get value from security ,and if all parameters are not set, get into else
 
 ![](17.png)
 
