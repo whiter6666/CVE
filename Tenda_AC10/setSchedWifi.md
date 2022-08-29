@@ -17,7 +17,7 @@ you may download it from : https://www.tendacn.com/download/detail-3796.html
 
 ![](4.png)
 
-get value from schedStartTime ,and set enable = 0
+get value from schedStartTime ,and set enable = schedWifiEnable = 0
 
 ![](3.png)
 
