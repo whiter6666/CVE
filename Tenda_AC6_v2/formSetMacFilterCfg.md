@@ -14,23 +14,23 @@ you may download it from : https://www.tendacn.com/download/detail-3794.html
 ## Analyse:
 
 
-![](../Tenda_AC10U/4.png)
+![](../Tenda_AC10U_V1/4.png)
 
 get value from macFilterType , and get into if
 
-![](../Tenda_AC10U/5.png)
+![](../Tenda_AC10U_V1/5.png)
 
 get value from deviceList , pass to set_macfilter_rules
 
-![](../Tenda_AC10U/6.png)
+![](../Tenda_AC10U_V1/6.png)
 
 pass to set_macfilter_rules_by_one
 
-![](../Tenda_AC10U/7.png)
+![](../Tenda_AC10U_V1/7.png)
 
 pass to parse_macfilter_rule
 
-![](../Tenda_AC10U/8.png)
+![](../Tenda_AC10U_V1/8.png)
 
 finally call strcpy ,cause buff overflow
 
