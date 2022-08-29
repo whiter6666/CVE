@@ -21,7 +21,7 @@ call doSystemCmd, split lan.ip
 
 ![](14.png)
 
-lan.ip get value from lanIp
+lan.ip get value from lanIp, and we can execute arbitrary command
 
 ## POC
 ```
