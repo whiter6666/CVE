@@ -6,7 +6,7 @@ version: V15.03.06.51
 
 ## Description:
 
-There is a buff overflow in httpd/SetPPTPServer
+There is a buff overflow in httpd/fromSetPPTPServer
 
 ## Source:
 
