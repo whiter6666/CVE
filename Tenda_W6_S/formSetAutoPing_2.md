@@ -6,7 +6,7 @@ version: V1.0.0.4(510)
 
 ## Description:
 
-There is a buff overflow in httpd/formSetAutoPing
+There is a buff overflow in httpd/formSetAutoPing via parameter 'ping2'
 
 ## Source:
 
