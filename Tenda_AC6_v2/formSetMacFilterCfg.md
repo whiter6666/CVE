@@ -6,7 +6,7 @@ version: V15.03.06.51
 
 ## Description:
 
-There is a buffer overflow in httpd/SetMacFilterCfg
+There is a buffer overflow in httpd/fromSetMacFilterCfg
 
 ## Source:
 
