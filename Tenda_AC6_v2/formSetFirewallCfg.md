@@ -6,7 +6,7 @@ version: V15.03.06.51
 
 ## Description:
 
-There is a buffer overflow in httpd/SetFirewallCfg
+There is a buffer overflow in httpd/fromSetFirewallCfg
 
 ## Source:
 
