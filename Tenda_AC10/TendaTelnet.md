@@ -17,7 +17,7 @@ you may download it from : https://www.tendacn.com/download/detail-3796.html
 
 ![](13.png)
 
-call doSystemCmd, split lan.ip
+call doSystemCmd, concate lan.ip
 
 ![](14.png)
 
