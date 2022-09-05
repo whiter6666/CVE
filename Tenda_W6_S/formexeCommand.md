@@ -21,7 +21,7 @@ get value from cmdinput
 
 ![](2.png)
 
-then pass to tpi_get_ping_output, split the string and call popen, cause command execution 
+then pass to tpi_get_ping_output, concate the string and call popen, cause command execution 
 
 ## POC
 ```
