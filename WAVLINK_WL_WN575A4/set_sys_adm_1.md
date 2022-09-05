@@ -20,7 +20,7 @@ you may download it from : https://www.wavlink.com/zh_cn/firmware/details/a3d6df
 get value from newpass 
 
 ![](3.png)  
-split to v30 and call system, cause command injection
+concate to v30 and call system, cause command injection
 
 
 ## POC
