@@ -6,7 +6,7 @@ version: 20220621
 
 ## Description:
 
-There is a command injection in adm.cgi/set_wzdap
+There is a buff overflow in adm.cgi/set_wzdap
 
 ## Source:
 
