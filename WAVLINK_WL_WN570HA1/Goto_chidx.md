@@ -6,7 +6,7 @@ version: 20220621
 
 ## Description:
 
-There is a command injection in login.cgi/Goto_chidx
+There is a buff overflow in login.cgi/Goto_chidx
 
 ## Source:
 
