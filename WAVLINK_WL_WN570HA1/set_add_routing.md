@@ -6,7 +6,7 @@ version: 20220621
 
 ## Description:
 
-There is a command injection in internet.cgi/set_add_routing
+There is a buff overflow in internet.cgi/set_add_routing
 
 ## Source:
 
