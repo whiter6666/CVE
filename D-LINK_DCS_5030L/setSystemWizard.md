@@ -16,7 +16,7 @@ you may download it from : [legacyfiles.us.dlink.com - /DCS-5030L/REVA/FIRMWARE/
 
 ![](1.png)
 
-If v13 equal zero and v36 equal 1, get into. Look into websGetVarCheck ,we could know that it will return 0 when the keyword's value is null.
+If v13 equal to zero and v36 equal 1, get into. Look into websGetVarCheck ,we could know that it will return 0 when the keyword's value is null.
 
 ![](2.png)
 
