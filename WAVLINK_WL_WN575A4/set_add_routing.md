@@ -20,7 +20,7 @@ you may download it from : https://www.wavlink.com/zh_cn/firmware/details/a3d6df
 get value from dest 
 
 ![](11.png)  
-if v5 equal 'net', call strcat, causee buff overflow
+if v5 equal to 'net', call strcat, causee buff overflow
 
 ## POC
 ```
