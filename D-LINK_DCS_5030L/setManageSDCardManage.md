@@ -16,7 +16,7 @@ you may download it from : [legacyfiles.us.dlink.com - /DCS-5030L/REVA/FIRMWARE/
 
 ![](11.png)
 
-If ConfigSDCard equal Rename, call sdcardsetRename.
+If ConfigSDCard equal to Rename, call sdcardsetRename.
 
 ![](12.png)
 
