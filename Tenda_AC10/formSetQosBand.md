@@ -21,7 +21,7 @@ get value from list ,then call setQosMiblist
 
 ![](10.png)
 
-p equal list, if list have '\n', get into while
+p equal to list, if list have '\n', get into while
 
 then call strcpy, cause buff overflow
 
