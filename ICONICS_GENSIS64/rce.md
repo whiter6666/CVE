@@ -22,6 +22,4 @@ you may download it from : https://iconics.com/Site/Product-Trials/GENESIS64-Tri
 
 ## POC:
 
-<video id="video" controls="" preload="none" poster="封面">
-      <source id="mp4" src="https://streamja.com/qLy02" type="video/mp4">
-</videos>
+![](ICONICS_GENESIS64.gif)
