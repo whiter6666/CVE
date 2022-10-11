@@ -4,7 +4,7 @@ version: V10.97.2
 
 ## Description:
 
-This vulnerability allows remote attackers to execute arbitrary code on affected installations of ICONICS GENESIS64. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.The specific flaw exists within the parsing of TDFX files. The issue results from the exposure of a dangerous method. An attacker can leverage this vulnerability to execute code in the context of the current process.
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of ICONICS GENESIS64. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.The specific flaw exists within the parsing of GDFX files. The issue results from the exposure of a dangerous method. An attacker can leverage this vulnerability to execute code in the context of the current process.
 
 ## Source:
 
